@@ -1,0 +1,28 @@
+/* Allows for safelist to be considered in tailwind build*/
+@source '../styles/safelist.txt';
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'proxima-nova';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://use.typekit.net/bvh8qbs.css');
+}
+
+@font-face {
+    font-family: 'factoria';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://use.typekit.net/bvh8qbs.css');
+}
+
+.font-sans {
+    font-family: 'proxima-nova', Arial, sans-serif;
+}
+
+.font-serif {
+    font-family: 'factoria', Georgia, serif;
+}
+
+
